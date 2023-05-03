@@ -1,0 +1,5 @@
+To learn:
+python lstm.py learn -w 12 -r 0 -d example_fit/gas_prices.csv -m example_fit/myModel.h5 -l A1 -p Date
+
+To score:
+python lstm.py score -s 1 -w 12 -r 0 -d example_fit/gas_prices.csv -m example_fit/myModel.h5 -l A1 -p Date
